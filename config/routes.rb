@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'page/index'
   get 'pages/index'
   get 'pages/create'
   get 'pages/new'
